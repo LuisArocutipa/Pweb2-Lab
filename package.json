@@ -1,0 +1,23 @@
+{
+  "name": "Pweb2-Lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisArocutipa/Pweb2-Lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisArocutipa/Pweb2-Lab/issues"
+  },
+  "homepage": "https://github.com/LuisArocutipa/Pweb2-Lab#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
