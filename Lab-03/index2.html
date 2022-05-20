@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio2</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Recitar poema</h1>
+        <script>
+            function recitar(){
+                const url="http://localhost:3000/recitar"
+                fetch(url).then(
+                    response => response.json()
+                ).then(
+                    data => {
+                        document.getElementById("poema").innerHTML=data.text
+                    }
+                )        
+            }
+        </script>
+        <button type="button" onclick="recitar()">recitar</button>
+        <p id="poema"> </p>
+    </body>
+</html>
